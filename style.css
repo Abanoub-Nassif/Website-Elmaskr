@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	
+	direction:rtl;
+	  font-family: 'Amiri', serif;
+
+}
+.dpic1{
+	
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:-1;
+}
+.pic1{
+	width:250px;
+	height:250px;
+	opacity:0.4;
+	margin:auto;
+}
+.cards{
+	display:flex;
+	flex-wrap:wrap;
+}
+.card{
+	width:300px;
+	height:350px;
+	background:;
+	border-radius:25px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	border:solid 2px #ddd;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	box-shadow:0 0 10px black;
+	transition: transform 0.3s;
+}
+.card:hover{
+	transform: translatey(-10px);
+}
+.pics{
+	width:210px;
+	height:300px;
+	object-fit:cntent;
+	border:solid 2px #ddd;
+	border-radius:20px;
+	transform:scale(0.9) translate(0 , -10px);
+	box-shadow:0 0 3px black;
+	
+
+}
+.h1{
+	transform: translate(0 , -15px);
+	
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.hma{
+	object-fit:cover;
+}
+.hma2{
+	width:300px;
+}

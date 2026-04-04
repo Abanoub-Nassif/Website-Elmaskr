@@ -67,7 +67,9 @@ a{
 }
 .hma{
 	object-fit:cover;
+	
 }
 .hma2{
 	width:300px;
+	object-fit:cover;
 }

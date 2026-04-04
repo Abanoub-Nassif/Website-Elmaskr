@@ -49,12 +49,12 @@ body{
 }
 .pics{
 	width:210px;
-	height:300px;
+	height:280px;
 	object-fit:cntent;
-	border:solid 2px #ddd;
+	
 	border-radius:20px;
 	transform:scale(0.9) translate(0 , -10px);
-	box-shadow:0 0 3px black;
+	
 	
 
 }
